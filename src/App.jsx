@@ -1,24 +1,28 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import logo from "./assets/imgs/logo.png";
 import "./App.css";
 
-import Personas from "./components/PersonasContainer";
-//import ListaPersonas from "./components/ListaPersonas";
-import ListaPersonas from "./components/ListaPersonasConUseState";
+import Home from "./components/HomeSinLocalStorage";
 
 function App() {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="row justify-content-center">
+        <div className="col-md-12">
+          <h2 className="text-center titulo">
+            <a href="https://urianviera.com" target="_blank">
+              <img
+                src={logo}
+                className="logo"
+                style={{ width: "200px" }}
+                alt="logo"
+              />
+            </a>
+            Sistema de Likes y Dislikes con ReactJS <hr />
+          </h2>
+        </div>{" "}
       </div>
-      <h1>Vite + React</h1>
-      <Personas>{(data) => <ListaPersonas data={data} />}</Personas>
+
+      <Home />
     </>
   );
 }
