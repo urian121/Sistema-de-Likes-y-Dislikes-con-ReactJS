@@ -1,7 +1,8 @@
 import logo from "./assets/imgs/logo.png";
 import "./App.css";
 
-import Home from "./components/HomeSinLocalStorage";
+import Home from "./components/Home";
+//import Home from "./components/HomeSinLocalStorage";
 
 function App() {
   return (
