@@ -13,6 +13,11 @@
 
     npm install react-use
 
+#### Para correr el proyecto, solo basta instalar las dependencias y correr el proyecto
+
+    npm install
+    npm run dev
+
 #### Resultado Filnal
 
 ![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/like-dislike-con-reactjs.png)
